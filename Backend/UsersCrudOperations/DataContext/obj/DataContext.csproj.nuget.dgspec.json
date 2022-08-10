@@ -1,0 +1,165 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\DataContext\\DataContext.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\DataContext\\DataContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\DataContext\\DataContext.csproj",
+        "projectName": "DataContext",
+        "projectPath": "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\DataContext\\DataContext.csproj",
+        "packagesPath": "C:\\Users\\LeNoVo\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\DataContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LeNoVo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\UsersCrudOperations\\UsersCrudOperations.csproj": {
+                "projectPath": "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\UsersCrudOperations\\UsersCrudOperations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\UsersCrudOperations\\UsersCrudOperations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\UsersCrudOperations\\UsersCrudOperations.csproj",
+        "projectName": "UsersCrudOperations",
+        "projectPath": "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\UsersCrudOperations\\UsersCrudOperations.csproj",
+        "packagesPath": "C:\\Users\\LeNoVo\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Crub operation with angular and ASP.Net\\Backend\\UsersCrudOperations\\UsersCrudOperations\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LeNoVo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Graph": {
+              "target": "Package",
+              "version": "[4.35.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
